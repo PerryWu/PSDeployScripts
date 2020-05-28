@@ -22,6 +22,7 @@ $ErrorActionPreference = "Stop"
 . .\TfsHelper.ps1
 . .\NuGetManager.ps1
 
+
 #check Msbuild, todo: also check other program paths are correct.
 Validate-Paths
 
